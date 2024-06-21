@@ -1,3 +1,11 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+}
+
+
 :root {
   --primary-color: #129e9e;
   --secondary-color: #f1f1f1;
@@ -21,6 +29,10 @@ header {
 .overline {
   text-decoration: overline;
 }
+
+/* p {
+  line-height: 30px;
+} */
 
 .devl {
   color: var(--primary-color);
@@ -142,3 +154,40 @@ table, th, td {
   opacity: 0.7;
   border-color: var(--background-color);
 }
+
+.button{
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      
+}
+
+
+.myButton {
+  align-items: center;
+  display: block;
+  margin: 0 auto;
+  justify-content: center;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor:pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  
+  background-color: #129e9e;
+  border: none;
+  border-radius: 15px;
+  
+  width: 250px;
+  
+}
+
+.myButton:hover {
+  opacity: 0.7;
+}
+
+
+
+
++
